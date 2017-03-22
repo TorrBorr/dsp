@@ -19,7 +19,23 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+|   Command    |    Function   |  
+| :------------| ------------- |   
+|  **pwd**     |  show current working directory path |  
+|   **mkdir**  |    create a new folder/directory |  
+|    cd         |  change directory  |  
+|   cd ..  |  go up one directory  |  
+|    **rmdir**  |  delete directory |  
+|   **rm**  |  delete file  |  
+|   rm -rf *  |  delete folder and all files  |  
+|   **touch**  |  creates a new empty file or changes the timestamp on an existing file |  
+|   ls  |  list files/folders in the directory  |  
+|   **ls -a**  | lists hidden files/folders|  
+|   **cp** (-r)  | copy file (folder+contents) from one place to another (used to remane a file) |   
+|    **mv** (-r)  |  move a file (folder+contents) from one directory to another directory (also renames)  |  
+|  -r  |  modifies command to be recursive (act on contents of folder) |  
+
+
 
 ---
 
@@ -34,7 +50,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+|   Command    |    Function   |  
+| :------------| ------------- |  
+| ls          | lists files and directories in current directory |  
+| ls -a     | lists hidden files and folders |  
+| ls -l      | lists files and directories along with the details size, modification date and time, file or folder name, owner and permissions |  
+| ls -lh    | lists file sizes in human readable format |  
+| ls -lah  | lists files and directories (including hidden files and directories) along with the details size, modification date and time, file or folder name, owner and permissions |  
+| ls -t     |sorts files and directories by time and date |  
+| ls -Glp  | lists files and folders (without owner information) and adds a "/" to mark directories |  
 
 ---
 
@@ -42,7 +66,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+-R (displays subdirectories)  
+-p (displays a “/“ on directories)  
+-t (newest first)  
+-m (comma separated list)  
+-1 (each entry on a line)  
 
 ---
 
