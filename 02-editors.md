@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I am choosing vim.  Though nano is much easier to use, I know that I will eventually need to learn vim so I should get used to it now.  I like that the file can be kept in a “non-insert” mode until I am ready to make an edit. 
 
 --
 
@@ -89,6 +89,10 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will use Atom’s vim-mode-plus plugin. This will allow me to use the same commands between my terminal editor and graphical editor.  
+Atom’s plugin manager is easy to use and it has a wide variety of useful plugins. 
+Useful shortcuts include: the command palette (shift-cmd-p), new file (cmd-n), open (cmd-o), save (cmd-s).  
+While using the vim plugin, the shortcuts for editing a file will be the same as for editing in vim. 
+I can install packages and themes under “settings” to customize Atom. If I want to customize keybindings I can change them in the key map (which is also linked to  under “settings”). 
 
  
