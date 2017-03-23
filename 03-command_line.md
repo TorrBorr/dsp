@@ -25,9 +25,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 |   **mkdir**  |    create a new folder/directory |  
 |    cd         |  change directory  |  
 |   cd ..  |  go up one directory  |  
-|    **rmdir**  |  delete directory |  
+|    **rmdir**  |  delete directory (must be empty) |  
 |   **rm**  |  delete file  |  
-|   rm -rf *  |  delete folder and all files  |  
+|   rm -rf *  |  delete directory and all files  |  
 |   **touch**  |  creates a new empty file or changes the timestamp on an existing file |  
 |   ls  |  list files/folders in the directory  |  
 |   **ls -a**  | lists hidden files/folders|  
