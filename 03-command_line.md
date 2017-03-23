@@ -78,7 +78,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs takes a string from stdin and tokenizes it into its constituent pieces based on delimiters to pass in as arguments.
+One use is to take an output that is on multiple lines and convert it into one line. 
+  
 
  
 
