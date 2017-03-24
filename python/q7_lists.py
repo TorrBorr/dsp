@@ -96,10 +96,7 @@ def remove_adjacent(nums):
                 pass
     else:
         new_list = []
-    #if nums[-1] == nums[-2]:
-        #pass
-    #else:
-        #new_list.append(nums[-1])
+
     return new_list
 
     """
