@@ -25,9 +25,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 |   **mkdir**  |    create a new folder/directory |  
 |    cd         |  change directory  |  
 |   cd ..  |  go up one directory  |  
-|    **rmdir**  |  delete directory |  
+|    **rmdir**  |  delete directory (must be empty) |  
 |   **rm**  |  delete file  |  
-|   rm -rf *  |  delete folder and all files  |  
+|   rm -rf *  |  delete directory and all files  |  
 |   **touch**  |  creates a new empty file or changes the timestamp on an existing file |  
 |   ls  |  list files/folders in the directory  |  
 |   **ls -a**  | lists hidden files/folders|  
@@ -78,7 +78,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs takes a string from stdin and tokenizes it into its constituent pieces based on delimiters to pass in as arguments.
+One use is to take an output that is on multiple lines and convert it into one line. 
+  
 
  
 

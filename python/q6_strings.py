@@ -3,6 +3,12 @@
 
 
 def donuts(count):
+    if count <10:
+        count_print = count
+    else:
+        count_print = "many"
+    return "Number of donuts: %s" % str(count_print)
+    
     """
     Given an int count of a number of donuts, return a string of the
     form 'Number of donuts: <count>', where <count> is the number
@@ -22,6 +28,13 @@ def donuts(count):
 
 
 def both_ends(s):
+    if len(s) <3:
+        new_word = ""
+    else:
+        new_word = s[:2]+s[(len(s)-2):len(s)]
+    
+    return new_word
+
     """
     Given a string s, return a string made of the first 2 and the last
     2 chars of the original string, so 'spring' yields 'spng'.
@@ -41,6 +54,9 @@ def both_ends(s):
 
 
 def fix_start(s):
+    first_letter = s[0]      
+    return s[0] + s[1:].replace(first_letter,"*")
+
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
@@ -60,6 +76,11 @@ def fix_start(s):
 
 
 def mix_up(a, b):
+    
+    newword1 = b[0:2] + a[2:] 
+    newword2 = a[0:2] + b[2:]
+    return ' '.join([newword1,newword2])
+
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
@@ -78,6 +99,15 @@ def mix_up(a, b):
 
 
 def verbing(s):
+    if len(s)>2:
+        if s[(len(s)-3):]=='ing':
+            new_word = s+"ly"
+        else:
+            new_word = s+"ing"
+    else:
+        new_word = s
+    return new_word
+
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
@@ -95,6 +125,19 @@ def verbing(s):
 
 
 def not_bad(s):
+    loc_not = s.find("not")
+    loc_bad = s.find("bad")
+    
+    if loc_not == -1 or loc_bad == -1:
+        new_phrase = s
+    else:
+        if loc_not < loc_bad:
+            new_phrase = ''.join([s.split('not')[0],"good",s.split('bad')[1]])
+        else:
+            new_phrase = s
+            
+    return new_phrase
+
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
@@ -115,7 +158,22 @@ def not_bad(s):
 
 
 def front_back(a, b):
-    """
+    if len(a)%2 == 0:
+        front_a = a[:((len(a)/2))]
+        back_a = a[((len(a)/2)):]
+    else:
+        front_a = a[:((len(a)/2)+1)]
+        back_a = a[((len(a)/2)+1):]    
+    if len(b)%2 == 0:
+        front_b = b[:((len(b)/2))]
+        back_b = b[((len(b)/2)):]   
+    else:
+        front_b = b[:((len(b)/2)+1)]
+        back_b = b[((len(b)/2)+1):]  
+        
+    return front_a+front_b+back_a+back_b   
+
+"""
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
     odd, we'll say that the extra char goes in the front half. e.g.
