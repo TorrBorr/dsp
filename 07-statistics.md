@@ -112,7 +112,9 @@ Elvis had a 29.4% probability of being an identical twin.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The Bayesian approach uses both past knowledge of similar experiments and current experimental data to draw conclusions.  Past knowledge is used to describe parameters probabilistically, and this knowledge is  incorporated into a “prior” distribution which describes subjective beliefs about the parameter. The prior distribution is then updated with the new data (using Bayes’ theorem) to form a “posterior” distribution that reflects any additional information that is added with the new data.  This approach requires careful assessment of the subjective assumptions used in constructing the prior distribution. It may also be very computationally intensive because it requires integration over many parameters.     
+
+The frequentist approach uses only current experimental data to draw conclusions about the underlying truths of the experiments.  The true value of a parameter is assumed to be a single fixed value rather than a probability distribution within a range.  In this approach, data are collected repeatedly to measure the frequency of obtaining specific values, and those frequencies are analyzed to obtain the new information and associated errors from the experiment.  In the frequentist approach the data collection methods must be well planned, well controlled and repeatable.    
 
 ---
 
